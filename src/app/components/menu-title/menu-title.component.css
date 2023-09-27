@@ -9,10 +9,10 @@
     font-size: 145px;
     display: flex;
     justify-content: center;
-    align-self: start;
 }
 
 .container-title hr{
+    border-color: gray;
     margin-top: 25px;
     margin-bottom: 50px;
 }
