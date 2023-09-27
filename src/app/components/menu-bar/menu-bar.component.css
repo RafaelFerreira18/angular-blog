@@ -1,5 +1,7 @@
 .menu-bar-container{
     margin-top: 15px;
+    display: flex;
+    flex-direction: row;
 }
 
 .menu-bar-container ul{
@@ -10,4 +12,10 @@
 }
 .menu-bar-container ul li{
     margin-right: 20px;
+}
+
+.menu-bar-container img{
+    border-radius: 25px 25px 25px 25px;
+    height: 25px;
+    margin-right: 40px;
 }
