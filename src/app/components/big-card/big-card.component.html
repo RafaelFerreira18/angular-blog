@@ -1,16 +1,11 @@
 <div class="big-card-container">
     <div class="big-card-image">
-        <img src="https://blog.iprocess.com.br/wp-content/uploads/2021/11/placeholder.png" alt="" height="264px">
+        <img src="{{imageSrc}}" alt="" height="264px">
     </div>
     <div class="big-card-title">
-        <h1><a href='#'>Criando blog!</a></h1>
+        <h1><a [routerLink]="['content', id]">{{bigCardTitle}}</a></h1>
     </div>
     <div class="big-card-description">
-        <p><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce libero odio, vulputate sit amet
-                vestibulum ut,
-                auctor et justo. Quisque ex sapien, sodales at molestie ut, vehicula eget nisl. Sed congue cursus enim
-                pharetra gravida. Donec ut mauris a lacus faucibus egestas. Vivamus interdum diam in sem varius, nec
-                dictum
-                justo tristique.</a></p>
+        <p><a [routerLink]="['content', id]">{{bigCardDescription}}</a></p>
     </div>
 </div>

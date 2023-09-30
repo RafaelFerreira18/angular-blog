@@ -12,7 +12,7 @@
 }
 
 .container-title hr{
-    border-color: gray;
+    border: 1px solid rgb(240, 116, 0);
     margin-top: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
